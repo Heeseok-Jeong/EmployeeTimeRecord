@@ -40,8 +40,8 @@ public class TimeRecorder {
 			for(WeekDays currentDay:WeekDays.values()) {
 				
 				System.out.print("  Input work time for Employee " + (employeeCount+1) 
-									+ " on " + currentDay + ": ");
-				hours[employeeCount][currentDay.ordinal()] = myScanner.nextInt();
+									+ " on " + currentDay + " : ");
+				hours[employeeCount][currentDay.ordinal()] = myScanner.nextInt(); 
 			}
 		}
 		
